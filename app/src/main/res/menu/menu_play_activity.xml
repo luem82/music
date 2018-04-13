@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/aaa"
+        android:icon="@drawable/ic_alarms"
+        android:title="Hẹn giờ tắt app"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_0"
+                android:icon="@drawable/ic_access_time_green"
+                android:title="Hẹn giờ tắt nhạc" />
+
+            <item
+                android:id="@+id/action_10"
+                android:title="- 10 phút" />
+            <item
+                android:id="@+id/action_30"
+                android:title="- 30 phút" />
+            <item
+                android:id="@+id/action_45"
+                android:title="- 45 phút" />
+            <item
+                android:id="@+id/action_60"
+                android:title="- 60 phút" />
+            <item
+                android:id="@+id/action_90"
+                android:title="- 90 phút" />
+            <item
+                android:id="@+id/action_clear"
+                android:icon="@drawable/ic_timer_off_red"
+                android:title="Hủy hẹn giờ" />
+            <item
+                android:id="@+id/action_renew"
+                android:icon="@drawable/ic_autorenew_black"
+                android:title="Đổi giao diện" />
+
+        </menu>
+    </item>
+
+</menu>
